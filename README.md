@@ -1,15 +1,42 @@
 # Rest Project + TypeScript
 
-Este proyecto previamente inicializado tiene todo lo necesario para trabajar con TypeScript, Express y Rest.
+This pre-initialized project has everything you need to work with TypeScript, Express and Rest. In order to make the following configurations:
 
-Cada paso de su configuración ya se ha realizado previamente en el curso, por lo que solo es necesario clonar el proyecto y comenzar a trabajar.
+    - Prepare the database
+    - Encrypt passwords using a one-way hash
+    - Generate access tokens
+    - Prepare the entire backend
+    - Send mail
+    - Creation of return links
+    - ngrok for tunneling
+    - Environment variables to facilitate your changes
+    - Connection and validation tests from the cell phone
+    - Tests towards localhost from the internet
+    - Middleware
+    - Routes
+    - Models
+    - Token validation
+    - Query parameters
+    - Pagination strategies
+    - Error handling
+    - Consideration of service usage and dependency injection.
+    - Complete new DTO form
+    - Validate MongoIDs
+    - Create categories, products and users from a seed
+    - Remove information in JSON serialization
+    - Simple Charging
+    - Multiple Load
+    - Get files + Body from http request simultaneously
+    - File and extension validations
+    - Custom middlewares
+    - File System Storage
+    - Getting the file from the http request
 
+## Steps to initialize the project
 
-## Instalación
-
-1. Clonar .env.template a .env y configurar las variables de entorno
-2. Ejecutar `npm install` para instalar las dependencias
-3. En caso de necesitar base de datos, configurar el docker-compose.yml y ejecutar `docker-compose up -d` para levantar los servicios deseados.
-4. Llnar la base de datos con los datos de prueba ejecutando `npm run seed`
-5. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo
+1. Clone .env.template to .env and set environment variables.
+2. Run `npm install` to install the dependencies
+3. If you need a database, configure docker-compose.yml and run `docker-compose up -d` to launch the desired services.
+4. Fill the database with test data by running `npm run seed`
+5. Run `npm run dev` to launch the project in development mode
 
